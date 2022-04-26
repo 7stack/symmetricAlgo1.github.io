@@ -40,10 +40,11 @@ body{
 
 header{
    position: fixed;
-   height: 70px;
+   height: 64px;
    width: 100vw;
    background: var(--nav-main);
-   box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+   /*box-shadow: 0 5px 10px rgba(0,0,0,0.1);*/
+   box-shadow: 0 -1px 12px hsla(174, 63%, 15%, 0.15);
 }
 
 .mobile-list{
