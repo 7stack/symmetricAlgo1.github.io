@@ -40,12 +40,26 @@ body{
 
 header{
    position: fixed;
-   height: 64px;
+   height: 6.4rem;
    width: 100vw;
    background: var(--nav-main);
    /*box-shadow: 0 5px 10px rgba(0,0,0,0.1);*/
    box-shadow: 0 -1px 12px hsla(174, 63%, 15%, 0.15);
 }
+nav.navigation-bar{
+   display: flex;
+   align-items: center;
+   height: 100%;
+   max-width: 130rem;
+   margin: auto;
+   padding: 0 3rem;
+   justify-content: space-between;
+
+}
+nav.navigation-bar .logo img{
+   height: 5rem;
+}
+
 
 .mobile-list{
    position: fixed;
